@@ -1,5 +1,5 @@
 class Learner {
-  //properties of the learner
+  //* properties of the learner
   String name;
   String phone;
   int yr_study;
@@ -11,7 +11,7 @@ class Learner {
   // *TODO: ADD LECTURER CONSTRUCTOR
 
 
-  //Constructor of the learner
+  //* Constructor of the learner
   Learner(this.name, this.phone, this.yr_study, this.isGraduated, this.age, this.hobby, this.country);
 
   //function of the learner
@@ -26,7 +26,7 @@ class Learner {
     print('Country: $country');
   }
 }
-// Create Lecturer Class
+//* Create Lecturer Class
 class Lecturer {
   // properties of the lecturer
   String name;
@@ -45,7 +45,7 @@ class Lecturer {
   }
 }
 
-// Create Employee Class
+//* Create Employee Class
 class Employee {
   // properties of the employee
   String name;
@@ -64,7 +64,7 @@ class Employee {
   }
 }
 
-// Create Company Class
+//* Create Company Class
 class Company {
   // properties of the company
   String name;
@@ -81,13 +81,14 @@ class Company {
   }
 }
 
-// Main Function
+//* Main Function
 void main() {
   // Function to create a new Learner object with specified attributes and display the details of the learner.
   var learner = Learner('Davie', '0718196501', 2, false, 21, 'Hiking', 'Kenya');
-  var lecturer = Lecturer('Davie', '0712179574', 'Kotlin');
+  // Function to create a new Lecturer object with specified attributes and display the details of the lecturer.
+  var lecturer = Lecturer('Wisdom', '0712179574', 'Kotlin');
   // Function to create a new Employee object with specified attributes and display the details of the employee.
-  var employee = Employee('Kibet', '0718196501', 'Android Developer');
+  var employee = Employee('Kibet', '0724007718', 'Android Developer');
   // Function to create a new Company object with specified attributes and display the details of the company.
   var company = Company('Ahadi Tech', 'Hurlingham');
 
